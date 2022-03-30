@@ -1,0 +1,40 @@
+.cart-item {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.img-container img {
+    width: 30px !important;
+    border-radius: 50%;
+}
+
+.img-container, .item-btn-container {
+    width: 10%;
+}
+
+.name-container {
+    margin-top: 5px;
+    width: 60%;
+    color: #5E2E87;
+}
+
+.item-btn-container .delete-btn {
+    color: #FF3030;
+    border: 0;
+}
+
+button {
+    background-color: aliceblue;
+}
+
+@media screen and (max-width: 1024px) {
+    .img-container img {
+        width: 20px !important;
+    }
+    .name-container h6{
+        font-size: 12px;
+    }
+}
