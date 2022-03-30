@@ -7,10 +7,10 @@ import Shop from './componants/Shop/Shop';
 function App() {
   return (
     <div className="App">
-      <Header></Header>
+      {/* <Header></Header> */}
       <Shop></Shop>
       <Question></Question>
-      <Footer></Footer>
+      {/* <Footer></Footer> */}
     </div>
   );
 }
